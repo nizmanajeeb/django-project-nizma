@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Contact Us</h2>
+
+<form>
+    <label>Name</label><br>
+    <input id="name" class="form-input" type="text"><br><br>
+
+    <label>Email</label><br>
+    <input id="email" class="form-input" type="email"><br><br>
+
+    <label>Message</label><br>
+    <textarea id="message" class="form-input" rows="5"></textarea><br><br>
+
+    <button class="btn-submit" type="submit">Send Message</button>
+</form>
+<h3>Customer Support</h3>
+
+<p>Email: support@moviehub.com</p>
+<p>Phone: +91 98XXXXXXXX</p>
+
+{% endblock %}
